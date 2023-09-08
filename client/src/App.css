@@ -1,0 +1,376 @@
+.mainCss{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.tool{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: auto;
+}
+.tool input{
+  width: 200px;
+  height: 35px;
+  margin: 8px 0px;
+  padding: 0px 8px;
+
+  font-size: 25px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  outline: none;
+}
+.tool input:focus{
+  border: 2px solid white;
+}
+.fonts-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 95%;
+  height: 100%;
+}
+.font{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+  margin: 12px 0px;
+  word-break: break-all;
+
+  border: 2px solid rgb(100, 100, 100);
+  border-radius: 8px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  width: 100%;
+  height: auto;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 4px 12px;
+  margin: 0px 4px;
+}
+.name{
+  margin: 0px 4px;
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+}
+.text{
+  padding: 0px;
+  margin: 0px 8px;
+  font-size: 50px;
+  color: wheat;
+}
+.custom{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@font-face{
+  font-family: winsome;
+  src: url('./assets/Winsome.ttf');
+}
+.winsome{
+  font-family: winsome;
+}
+@font-face{
+  font-family: waltograph;
+  src: url('./assets/waltographUI.ttf');
+}
+.waltograph{
+  font-family: waltograph;
+}
+@font-face{
+  font-family: titanone;
+  src: url('./assets/TitanOne-Regular.ttf');
+}
+.titanone{
+  font-family: titanone;
+}
+@font-face{
+  font-family: themightiest;
+  src: url('./assets/THEMIGHTIEST.ttf');
+}
+.themightiest{
+  font-family: themightiest;
+}
+@font-face{
+  font-family: theflameproofer;
+  src: url('./assets/theflameproofer.ttf');
+}
+.theflameproofer{
+  font-family: theflameproofer;
+}
+@font-face{
+  font-family: righteous;
+  src: url('./assets/Righteous-Regular.ttf');
+}
+.righteous{
+  font-family: righteous;
+}
+@font-face{
+  font-family: remachine;
+  src: url('./assets/RemachineScript_Personal_Use.ttf');
+}
+.remachine{
+  font-family: remachine;
+}
+@font-face{
+  font-family: playfair-regular;
+  src: url('./assets/PlayfairDisplay-Regular.ttf');
+}
+.playfair-regular{
+  font-family: playfair-regular;
+}
+@font-face{
+  font-family: playfair-bold;
+  src: url('./assets/PlayfairDisplay-Bold.ttf');
+}
+.playfair-bold{
+  font-family: playfair-bold;
+}
+@font-face{
+  font-family: notosanspaucinhau-regular;
+  src: url('./assets/NotoSansPauCinHau-Regular.ttf');
+}
+.notosanspaucinhau-regular{
+  font-family: notosanspaucinhau-regular;
+}
+@font-face{
+  font-family: malboro;
+  src: url('./assets/Marlboro.ttf');
+}
+.malboro{
+  font-family: malboro;
+}
+@font-face{
+  font-family: julioussansone-regular;
+  src: url('./assets/JuliusSansOne-Regular.ttf');
+}
+.julioussansone-regular{
+  font-family: julioussansone-regular;
+}
+@font-face{
+  font-family: imfellgreatprimesc-regular;
+  src: url('./assets/IMFellGreatPrimerSC-Regular.ttff');
+}
+.imfellgreatprimesc-regular{
+  font-family: imfellgreatprimesc-regular;
+}
+@font-face{
+  font-family: ibmplexmono-regular;
+  src: url('./assets/IBMPlexMono-Regular.ttf');
+}
+.ibmplexmono-regular{
+  font-family: ibmplexmono-regular;
+}
+@font-face{
+  font-family: ibmplexmono-extralight;
+  src: url('./assets/IBMPlexMono-ExtraLight.ttf');
+}
+.ibmplexmono-extralight{
+  font-family: ibmplexmono-extralight;
+}
+@font-face{
+  font-family: ibmplexmono-bold;
+  src: url('./assets/IBMPlexMono-Bold.ttf');
+}
+.ibmplexmono-bold{
+  font-family: ibmplexmono-bold;
+}
+@font-face{
+  font-family: handjet;
+  src: url('./assets/Handjet-VariableFont_ELGR,ELSH,wght.ttf');
+}
+.handjet{
+  font-family: handjet;
+}
+@font-face{
+  font-family: handjet-regular;
+  src: url('./assets/Handjet-Regular.ttf');
+}
+.handjet-regular{
+  font-family: handjet-regular;
+}
+@font-face{
+  font-family: handjet-bold;
+  src: url('./assets/Handjet-Bold.ttf');
+}
+.handjet-bold{
+  font-family: handjet-bold;
+}
+@font-face{
+  font-family: dolliescript;
+  src: url('./assets/DollieScript_PersonalUse.ttf');
+}
+.dolliescript{
+  font-family: dolliescript;
+}
+@font-face{
+  font-family: cinzeldecorative-regular;
+  src: url('./assets/CinzelDecorative-Regular.ttf');
+}
+.cinzeldecorative-regular{
+  font-family: cinzeldecorative-regular;
+}
+@font-face{
+  font-family: cinzeldecorative-bold;
+  src: url('./assets/CinzelDecorative-Bold.ttf');
+}
+.cinzeldecorative-bold{
+  font-family: cinzeldecorative-bold;
+}
+@font-face{
+  font-family: breeserif-regular;
+  src: url('./assets/BreeSerif-Regular.ttf');
+}
+.breeserif-regular{
+  font-family: breeserif-regular;
+}
+@font-face{
+  font-family: bondoniflf-bold;
+  src: url('./assets/BodoniFLF-Bold.ttf');
+}
+.bondoniflf-bold{
+  font-family: bondoniflf-bold;
+}
+@font-face{
+  font-family: badabb;
+  src: url('./assets/BADABB__.TTF');
+}
+.badabb{
+  font-family: badabb;
+}
+@font-face{
+  font-family: anabell;
+  src: url('./assets/Anabelle Script.ttf');
+}
+.anabell{
+  font-family: anabell;
+}
+@font-face{
+  font-family: apple;
+  src: url('./assets/Apple.ttf');
+}
+.apple{
+  font-family: apple;
+}
+@font-face{
+  font-family: alexbrush-regular;
+  src: url('./assets/AlexBrush-Regular.ttf');
+}
+.alexbrush-regular{
+  font-family: alexbrush-regular;
+}
+
+@font-face{
+  font-family: alexbrush-regular;
+  src: url('./assets/SeaBubble-Regular.ttf');
+}
+.seabubble{
+  font-family: seabubble;
+}
+@font-face{
+  font-family: overmovie;
+  src: url('./assets/Over Movie.ttf');
+}
+.overmovie{
+  font-family: overmovie;
+}
+@font-face{
+  font-family: heritho;
+  src: url('./assets/Heritho.ttf');
+}
+.heritho{
+  font-family: heritho;
+}
+@font-face{
+  font-family: harabara;
+  src: url('./assets/Harabara.ttf');
+}
+.harabara{
+  font-family: harabara;
+}
+@font-face{
+  font-family: ghostnight;
+  src: url('./assets/GhostNightDEMO!-DEMO.ttf');
+}
+.ghostnight{
+  font-family: ghostnight;
+}
+
+@font-face{
+  font-family: staywork;
+  src: url('./assets/Staywork.ttf');
+}
+.staywork{
+  font-family: staywork;
+}
+@font-face{
+  font-family: sarcolenta;
+  src: url('./assets/Sarcolenta.ttf');
+}
+.sarcolenta{
+  font-family: sarcolenta;
+}
+@font-face{
+  font-family: gorine;
+  src: url('./assets/GORINE FLUMS.ttf');
+}
+.gorine{
+  font-family: gorine;
+}
+@font-face{
+  font-family: roughnecks;
+  src: url('./assets/ROUGHNECKS.ttf');
+}
+.roughnecks{
+  font-family: roughnecks;
+}
+@font-face{
+  font-family: stanbriged;
+  src: url('./assets/Stanbriged.ttf');
+}
+.stanbriged{
+  font-family: stanbriged;
+}
+@font-face{
+  font-family: obligately;
+  src: url('./assets/Obligately.ttf');
+}
+.obligately{
+  font-family: obligately;
+}
+@font-face{
+  font-family: vascolardo;
+  src: url('./assets/VASCOLARDO.ttf');
+}
+.vascolardo{
+  font-family: vascolardo;
+}
+@font-face{
+  font-family: midnight-blackfire;
+  src: url('./assets/Midnight Blackfire.ttf');
+}
+.midnight-blackfire{
+  font-family: midnight-blackfire;
+}
